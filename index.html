@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ex2</title>
-    <script src="../js/script.js"></script>
+    <title>Ex3</title>
+    <script src="./js/script.js" defer></script>
 </head>
 <body>
-    <h2>
+    <!-- <h2>
         1 – Crie um array contendo 10 valores de salário e utilizando o método map() atribua
         um aumento de 15% para salários até 2000 e um aumento de 10% para salários acima
         de 2000.
@@ -17,6 +17,54 @@
         <br>
         3 – Utilizando o array de resultado do exercício anterior, usando o método reduce(),
         some os valores.
-    </h2>
+    </h2> -->
+
+    <div>
+        <form id="formCadastro">
+            <fieldset>
+                <legend>Cadastro</legend>
+                <div>
+                    <label for="">Descrição:</label>
+                    <input type="text" name="descricao" id="idDescricao" placeholder="Digite a descrição.">
+
+                    <label for="">Autor:</label>
+                    <input type="text" name="autor" id="idAutor" placeholder="Digite o autor.">
+
+                    <label for="">Departamento:</label>
+                    <input type="text" name="departamento" id="idDepartamento" placeholder="Digite o departamento.">
+
+                    <label for="">Importância:</label>
+                    <input type="number" name="importancia" id="idImportancia" placeholder="Digite a importância.">
+
+                    <br>
+
+                    <label for="">Valor:</label>
+                    <input type="text" name="valor" id="idValor" placeholder="Digite o valor.">
+
+                    <label for="">Duração:</label>
+                    <input type="text" name="duracao" id="idDuracao" placeholder="Digite a duração.">
+
+                    <br>
+
+                    <button type="submit">Adicionar</button>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+
+
+    <table id="tabelas">
+        <tr>
+            <th>Descrição</th>
+            <th>Autor</th>
+            <th>Departamento</th>
+            <th>Importância</th>
+            <th>Valor</th>
+            <th>Duração</th>
+            <th></th>
+        </tr>
+    </table>
+
+    <button id="ordenar">Ordenar</button>
 </body>
 </html>
